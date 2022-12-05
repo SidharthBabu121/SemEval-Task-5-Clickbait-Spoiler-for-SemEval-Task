@@ -16,3 +16,20 @@ The dataset comes with predefined train/validation/test splits:
 - [800 posts for validation](validation.jsonl)
 
 
+
+## Installation
+
+1) Please refrence this link: https://www.makeuseof.com/tag/install-pip-for-python/, to install pip for Windows, Mac, Linux
+
+2) Please create a virtual enviornment  using venv  (https://docs.python.org/3/library/venv.html)
+
+3) pip install -U pip
+
+4) pip install -r requirements.txt
+ 
+5) After git cloning this project, please go to the data folder and unzip the qa file.
+
+
+ 
+
+
