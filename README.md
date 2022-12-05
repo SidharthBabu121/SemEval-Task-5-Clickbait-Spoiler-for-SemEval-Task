@@ -1,7 +1,6 @@
 # SemEval Task-5: Clickbait Spoiler
 
 
-
 # Webis Clickbait Spoiling Corpus
 
 The Webis Clickbait Spoiling Corpus 2022 (Webis-Clickbait-22) contains 4,000 spoiled clickbait posts crawled from Facebook, Reddit, and Twitter.
@@ -14,7 +13,6 @@ The dataset comes with predefined train/validation/test splits:
 
 - [3,200 posts for training](training.jsonl)
 - [800 posts for validation](validation.jsonl)
-
 
 
 ## Installation
@@ -38,13 +36,13 @@ The dataset comes with predefined train/validation/test splits:
     - notebooks  ->  Folder containing model notebooks
 
 2) In the notebooks folder, there are 5 notebooks for each model we designed and test:
-    - nlp_243_project_classification_svm.ipynb 
-    - nlp_243_project_classification_bert.ipynb
-    - nlp_243_project_classification_bert_lstm.ipynb
-    - nlp_243_project_qa_bert.ipynb
-    - nlp_243_project_qa_roberta.ipynb
+    1. nlp_243_project_classification_svm.ipynb 
+    2. nlp_243_project_classification_bert.ipynb
+    3. nlp_243_project_classification_bert_lstm.ipynb
+    4. nlp_243_project_qa_bert.ipynb
+    5. nlp_243_project_qa_roberta.ipynb
     
-3) Execute each of the notebooks sequentially
+3) Execute each of the notebooks sequentially (in the same order as shown above):
     - To execute them, please change (in the first cell) the "root_path" to the path of the data folder (please keep in mind of the structure of the code       you download).
     - The results for each will be present in the bottom of the notebook. 
  
