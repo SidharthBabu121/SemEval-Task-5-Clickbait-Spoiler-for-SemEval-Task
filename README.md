@@ -11,8 +11,8 @@ This corpus supports the task of clickbait spoiling, which deals with generating
 
 The dataset comes with predefined train/validation/test splits:
 
-- [3,200 posts for training](./data/training.jsonl)
-- [800 posts for validation](./data/validation.jsonl)
+- [3,200 posts for training](https://github.com/SidharthBabu121/SemEval-Task-5-Clickbait-Spoiler-for-SemEval-Task/blob/main/data/train.jsonl)
+- [800 posts for validation](https://github.com/SidharthBabu121/SemEval-Task-5-Clickbait-Spoiler-for-SemEval-Task/blob/main/data/validation.jsonl)
 
 
 ## Installation
