@@ -1,4 +1,4 @@
-# SemEval-Task-5-Clickbait-Spoiler-for-SemEval-Task
+# SemEval Task-5: Clickbait Spoiler
 
 
 
