@@ -30,6 +30,25 @@ The dataset comes with predefined train/validation/test splits:
 5) After git cloning this project, please go to the data folder and unzip the qa file.
 
 
+## Details of Importance:
+
+1) The project contains three folder:
+    - data       ->  Contains all the raw train and validation data for all models
+    - models     ->  Folder where we save the best models for spoiler classification. 
+    - notebooks  ->  Folder containing model notebooks
+
+2) In the notebooks folder, there are 5 notebooks for each model we designed and test:
+    - nlp_243_project_classification_svm.ipynb 
+    - nlp_243_project_classification_bert.ipynb
+    - nlp_243_project_classification_bert_lstm.ipynb
+    - nlp_243_project_qa_bert.ipynb
+    - nlp_243_project_qa_roberta.ipynb
+    
+3) Execute each of the notebooks sequentially
+    - To execute them, please change (in the first cell) the "root_path" to the path of the data folder (please keep in mind of the structure of the code       you download).
+    - The results for each will be present in the bottom of the notebook. 
+ 
+
  
 
 
