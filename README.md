@@ -31,8 +31,11 @@ The dataset comes with predefined train/validation/test splits:
 #setting-up-data-for-colab
 
 1) Before running the notebooks right click folder named "data" and "models" located in "NLP243_2022/Group1" folder of google drive.
+
 2) Select "Add shortcut to Drive"
+
 3) Select "My Drive"
+
 4) Select "ADD SHORTCUT"
 
 This will ensure all the data paths are setup to run in colab.
@@ -52,8 +55,17 @@ This will ensure all the data paths are setup to run in colab.
     5. nlp_243_project_qa_roberta.ipynb
     
 3) Execute each of the notebooks sequentially (in the same order as shown above):
-    - To execute them, please change (in the second cell) the "root_path" to the path of the data folder (if you are running in colab and setup the shortcuts as mentioned in the section ["Setting up data for colab"](#setting-up-data-for-colab) you won't have to change it as all the paths are already setup).
-    - The results for each will be present in the bottom of the notebook.
+    - To execute them, please change (in the second cell) the "root_path" to the path of the data folder and execute the notebook.
+        - To run in Colab
+            1. If you have setup the shortcuts as mentioned in the section ["Setting up data for colab"](#setting-up-data-for-colab) you won't have to change "root_path" as all the paths are already setup.
+            2. Select "Runtime"
+            3. Select "Change Runtime Type"
+                - Select "Hardware Accelerator" as "GPU"
+            4. Select "Run All"
+            5. Select " Connect to Google Drive" when prompted
+            6. Select the Account you want to use
+            7. Select "Allow"
+    - The results and graphs of each notebook are present at the bottom.
  
 
  
