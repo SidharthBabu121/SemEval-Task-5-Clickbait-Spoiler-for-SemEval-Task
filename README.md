@@ -28,6 +28,7 @@ The dataset comes with predefined train/validation/test splits:
 5) After git cloning this project, please go to the data folder and unzip the qa file.
 
 ## Setting up data for colab
+#setting-up-data-for-colab
 
 1) Before running the notebooks right click folder named "data" and "models" located in "NLP243_2022/Group1" folder of google drive.
 2) Select "Add shortcut to Drive"
@@ -51,7 +52,7 @@ This will ensure all the data paths are setup to run in colab.
     5. nlp_243_project_qa_roberta.ipynb
     
 3) Execute each of the notebooks sequentially (in the same order as shown above):
-    - To execute them, please change (in the second cell) the "root_path" to the path of the data folder (if you are running in colab and setup the shortcuts as mentioned in the section "Setting up data for colab" you won't have to change it as all the paths are already setup).
+    - To execute them, please change (in the second cell) the "root_path" to the path of the data folder (if you are running in colab and setup the shortcuts as mentioned in the section ["Setting up data for colab"](#setting-up-data-for-colab) you won't have to change it as all the paths are already setup).
     - The results for each will be present in the bottom of the notebook.
  
 
