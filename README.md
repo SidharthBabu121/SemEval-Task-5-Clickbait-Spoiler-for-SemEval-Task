@@ -40,7 +40,7 @@ The dataset comes with predefined train/validation/test splits:
 
 This will ensure all the data paths are setup to run in colab.
 
-## Details of Importance:
+## Executing Notebooks:
 
 1) The project contains three folder:
     - data       ->  Contains all the raw train and validation data for all models
