@@ -15,7 +15,7 @@ The dataset comes with predefined train/validation/test splits:
 - [800 posts for validation](https://github.com/SidharthBabu121/SemEval-Task-5-Clickbait-Spoiler-for-SemEval-Task/blob/main/data/validation.jsonl)
 
 
-## Installation of dependencies (to run on colab follow the colab section as the dependencies are already installed in google colab environment)
+## Installation of dependencies (to run on colab follow the section ["Setting up data for colab"](#setting-up-data-for-colab) as the dependencies are already installed in google colab environment)
 
 1) Please refrence this link: https://www.makeuseof.com/tag/install-pip-for-python/, to install pip for Windows, Mac, Linux
 
@@ -27,8 +27,8 @@ The dataset comes with predefined train/validation/test splits:
  
 5) After git cloning this project, please go to the data folder and unzip the qa file.
 
-## Setting up data for colab
 #setting-up-data-for-colab
+## Setting up data for colab
 
 1) Before running the notebooks right click folder named "data" and "models" located in "NLP243_2022/Group1" folder of google drive.
 
